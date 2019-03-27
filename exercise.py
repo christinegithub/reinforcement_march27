@@ -3,6 +3,7 @@ def longestConsecutive(list, k):
         return ""
     else:
         longestString = ""
+        # string = ""
         for i in range(len(list)):
             string = ""
             if i + (k-1) < len(list):
